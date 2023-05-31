@@ -1,16 +1,18 @@
 <div>
 
     <div class="bg-slate-900 w-full p-9">
-        <div class="container bg-cyan-600 mx-auto mt-4 rounded-md  p-9">
-            <div class="flex justify-between px-9 mt-12 md:flex-row md:space-y-0 flex-col space-y-9 items-center">
-                <div>
-                    <h1 class="text-white font-bold text-3xl mb-5 w-96 -mt-8">We’re Help To Build Your DreamProject</h1>
-                    <h2 class="text-white font-bold text-2xl mb-5">LET’S COLLABORATE</h2>
+        <div class="container bg-cyan-600 mx-auto mt-4 rounded-md  pt-1">
+            <div class="flex justify-between px-9 mt-12 md:flex-row md:space-y-0 flex-col space-y-9 items-center md:ml-20 md:text-start text-center">
+                <div class="md:text-start text-center">
+                    <h1 class="text-white font-bold md:text-5xl mb-5 md:w-96 -mt-8 leading-70">We’re Help <br> To Build Your DreamProject</h1>
+                    <div class="h-9"></div>
+                    <h2 class="text-white font-bold text-2xl mb-2">LET’S COLLABORATE</h2>
                     <p class="text-white mb-5">Contact Us To Request A Service, Partnership, Or To Work With Us.</p>
-                    <button class="text-orange-400 rounded-full bg-white p-2 px-4">LET’SMAKE YOU HAPPY</button>
+                    <div class="h-4"></div>
+                    <button class="text-brown rounded-full bg-white p-2 px-4 font-bold">LET’SMAKE YOU HAPPY</button>
                 </div>
                 <div>
-                    <img src="{{ url('images/undraw.svg') }}" alt="">
+                    <img src="{{ url('images/pallon.png') }}" alt="">
                 </div>
             </div>
         </div>
@@ -45,9 +47,10 @@
                         <a href="#" class="block my-2 ">Saudi Arabia - Riyadh</a>
                     </div>
                 </div>
-
             </div>
-        </div>
 
+        </div>
+        <hr class="h-px  bg-orange-300 border-0 w-full mt-16">
+        <p class="text-white mt-5 text-center">All Rights Reserved To Happiness Factory Ltd 2022</p>
     </div>
 </div>

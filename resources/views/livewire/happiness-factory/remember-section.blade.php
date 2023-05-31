@@ -1,6 +1,6 @@
 <div>
     <div class="bg-gradient-to-r from-purple-500">
-        <div class="container mx-auto to-white-500 h-auto pt-16">
+        <div class="container mx-auto to-white-500 h-auto pt-16  px-10">
             <div class="flex flex-col md:flex-col mb-10  md:text-start mx-5 md:mx-0">
                 <div class="md:w-1/2 w-full">
                     <h1 class="text-white font-bold md:text-5xl text-3xl mb-4">MADE TO REMEMBER</h1>

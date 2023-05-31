@@ -1,6 +1,7 @@
 <?php
 
-
 return [
-    'welcome' => 'welcome',
+
+    'welcome' => 'Welcome to our application',
+    'hello' => 'hello :name'
 ];

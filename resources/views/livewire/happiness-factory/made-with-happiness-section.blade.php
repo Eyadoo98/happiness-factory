@@ -6,9 +6,8 @@
                 <hr class="h-px bg-orange-300 border-0 mt-2 mb-6">
                 <p class="md:text-2xl text-1xl font-bold mb-6 text-slate-700 text-center mx-auto md:mx-0 md:text-start ltr:lg:text-start rtl:md:text-center ltr:md:text-center rtl:lg:text-start">The Happiness Factory Launched With The Accumulated Knowledge Of (15)Years In Experience Design.</p>
                 <p class="md:text-2xl text-base font-bold mb-6 text-slate-500 text-center mx-auto md:mx-0 md:text-start ltr:lg:text-start rtl:md:text-center ltr:md:text-center rtl:lg:text-start">During This Journey, We Rode The Waves Of Change In The Experience Industry. We Curated And Innovated Full Experiences Made For Everyone.</p>
-                <button class="text-white rounded-full bg-orange-400 p-2 px-4 ">LET’SMAKE YOU HAPPY</button>
+                <button class="text-white rounded-full bg-brown p-2 px-6 ">READ MORE</button>
             </div>
-            {{-- <div class="w-12"></div> --}}
             <div class="mb-11  rtl:md:w-1/2 rtl:lg:w-1/3 ltr:md:w-1/2 ltr:lg:w-1/3">
                 <img src="{{ url('images/airballoon.png') }}" class="rtl:w-full" alt="">
             </div>

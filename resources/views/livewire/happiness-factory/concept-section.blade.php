@@ -26,7 +26,7 @@
     {{-- CONSULTANCY SERVICES SECTION --}}
     <div class="h-auto bg-slate-950 -mt-11 text-white pt-8">
 
-        <div class="container mx-auto ">
+        <div class="container mx-auto  px-10">
             <div class="flex items-center flex-col md:flex-row">
                 <div class="w-1/2">
                     <div class="h-1 bg-orange-300 mb-8 md:mb-0"></div>

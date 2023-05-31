@@ -1,6 +1,12 @@
 <?php
 
+// use App\Http\Controllers\HappinessFactory\ContactUsController;
+
+use App\Http\Livewire\HappinessFactory\AboutUs;
+use App\Http\Livewire\Happinessfactory\ContactUs;
+use App\Http\Livewire\HappinessFactory\HappinessCreator;
 use App\Http\Livewire\HappinessFactory\Index;
+use App\Http\Livewire\HappinessFactory\OurProject;
 use App\Models\Test;
 use Illuminate\Support\Facades\Route;
 
@@ -38,4 +44,9 @@ Route::get('/test', function () {
    ]);
    return $test;
 });
+
+Route::get('contact',ContactUs::class)->name('contact');
+Route::get('about',AboutUs::class)->name('about');
+Route::get('happinessCreator',HappinessCreator::class)->name('happinessCreator');
+Route::get('ourProject',OurProject::class)->name('ourProject');
 
