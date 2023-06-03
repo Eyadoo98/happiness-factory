@@ -1,8 +1,8 @@
 <div>
     <style>
         @media (min-width: 1200px) {
-            .test{
-                margin:0 150px;
+            .test {
+                margin: 0 150px;
             }
         }
     </style>
@@ -48,31 +48,34 @@
             </p>
         </div>
         <div class="h-9"></div>
-        <div class="flex justify-center items-center md:flex-row flex-col mt-9 text-center md:space-x-9 test">
-
+        <div class="flex justify-center md:flex-row flex-col mt-9 text-center md:space-x-9 px-16">
             <div class="md:w-1/4 w-full ">
-                <div class="h-96 bg-no-repeat bg-center opacity-50 bg-contain mt-9 md:mt-0" style="background-image:url({{url('images/door.png')}})">
+                <div class="lg:h-96 md:h-72 h-96 bg-no-repeat bg-center opacity-50 bg-contain mt-9 md:mt-0"
+                    style="background-image:url({{ url('images/door.png') }})">
                 </div>
                 <p class="">
                     Here, we spend our nights <br> and the good mornings
                 </p>
             </div>
             <div class="md:w-1/4 w-full ">
-                <div class="h-96 bg-no-repeat bg-center opacity-70 bg-contain mt-9 md:mt-0" style="background-image:url({{url('images/diskTree.png')}})">
+                <div class="lg:h-96 md:h-72 h-96 bg-no-repeat bg-center opacity-70 bg-contain mt-9 md:mt-0"
+                    style="background-image:url({{ url('images/diskTree.png') }})">
                 </div>
                 <p class="">
                     Here, we spend our nights <br> and the good mornings
                 </p>
             </div>
             <div class="md:w-1/4 w-full ">
-                <div class="h-96 bg-no-repeat bg-center opacity-70 bg-contain mt-9 md:mt-0" style="background-image:url({{url('images/disk.png')}})">
+                <div class="lg:h-96 md:h-72 h-96 bg-no-repeat bg-center opacity-70 bg-contain mt-9 md:mt-0"
+                    style="background-image:url({{ url('images/disk.png') }})">
                 </div>
                 <p class="">
                     Here, we understand and <br> start our projects
                 </p>
             </div>
             <div class="md:w-1/4 w-full ">
-                <div class="h-96 bg-no-repeat bg-center opacity-70 bg-contain mt-9 md:mt-0" style="background-image:url({{url('images/office.png')}})">
+                <div class="lg:h-96 md:h-72 h-96 bg-no-repeat bg-center opacity-70 bg-contain mt-9 md:mt-0"
+                    style="background-image:url({{ url('images/office.png') }})">
                 </div>
                 <p class="">
                     Here, we spend our nights <br> and the good mornings

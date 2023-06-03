@@ -11,18 +11,18 @@
         <div x-data="{ form1: true, form2 : false , form3:false , form4:false}">
             <div class="flex md:ml-44 md:flex-row flex-col">
                 <div class="md:w-1/4 w-full text-right mr-4 cursor-pointer">
-                    <div class="bg-white border border-tomato">
+                    <div class="bg-white border border-tomato rtl:ml-5">
                         <div x-on:click="form1=true,form2=false,form3=false,form4=false" x-bind:class="form1 ? 'bg-tomato text-white' : 'bg-white'" class="border border-tomato p-5 font-bold text-center">
                             Job Application
                         </div>
-                        <i class="fa fa-arrow-right relative left-2 -top-10 h-0 text-tomato" x-bind:class="form1 ? 'block' : 'hidden' "></i>
+                        <i class="fa fa-arrow-right relative ltr:left-2 ltr:-top-10 rtl:-left-full rtl:-top-5 rtl:rotate-180 rtl:w-2 h-0 text-tomato" x-bind:class="form1 ? 'block' : 'hidden'"></i>
                         <div @click="form1=false,form2=true,form3=false,form4=false" x-bind:class="form2 ? 'bg-tomato text-white' : 'bg-white'" class="border border-tomato p-5 font-bold text-center">Partnership Offer</div>
-                        <i class="fa fa-arrow-right relative left-2 -top-10 h-0 text-tomato" x-bind:class="form2 ? 'block' : 'hidden' "></i>
+                        <i class="fa fa-arrow-right relative ltr:left-2 ltr:-top-10 rtl:-left-full rtl:-top-5 rtl:rotate-180 rtl:w-2 h-0 text-tomato" x-bind:class="form2 ? 'block' : 'hidden' "></i>
                         <div x-on:click="form1=false,form2=false,form3=true,form4=false" x-bind:class="form3 ? 'bg-tomato text-white' : 'bg-white'" class="border border-tomato p-5 font-bold text-center">Service Request</div>
-                        <i class="fa fa-arrow-right relative left-2 -top-10 h-0 text-tomato" x-bind:class="form3 ? 'block' : 'hidden' "></i>
+                        <i class="fa fa-arrow-right relative ltr:left-2 ltr:-top-10 rtl:-left-full rtl:-top-5 rtl:rotate-180 rtl:w-2 h-0 text-tomato" x-bind:class="form3 ? 'block' : 'hidden' "></i>
 
                         <div x-on:click="form1=false,form2=false,form3=false,form4=true"  x-bind:class="form4 ? 'bg-tomato text-white' : 'bg-white'"class="border border-tomato p-5 font-bold text-center">Service Offer</div>
-                        <i class="fa fa-arrow-right relative left-2 -top-10 h-0 text-tomato" x-bind:class="form4 ? 'block' : 'hidden' "></i>
+                        <i class="fa fa-arrow-right relative ltr:left-2 ltr:-top-10 rtl:-left-full rtl:-top-5 rtl:rotate-180 rtl:w-2 h-0 text-tomato" x-bind:class="form4 ? 'block' : 'hidden' "></i>
                     </div>
                 </div>
                 <div class="md:w-9/12 w-full">

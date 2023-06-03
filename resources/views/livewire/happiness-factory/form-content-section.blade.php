@@ -1,5 +1,5 @@
 <div>
-    <div class="container mx-auto px-16 bg-white shadow-lg shadow-white-500/50 rounded-lg text-center pt-5">
+    <div class="container mx-auto px-16 bg-white shadow-2xl shadow-white-500/50 rounded-lg text-center pt-5">
         <div class="flex md:flex-row flex-col">
             <div class="w-1/4"></div>
             <div class="md:w-1/2 w-full text-left">

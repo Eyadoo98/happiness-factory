@@ -1,6 +1,17 @@
 <div class="h-3/4 bg-orange-900"
     style="background-image: url('https://cdnb.artstation.com/p/assets/images/images/027/347/511/large/renderpeople-gmbh-renderpeople-free-3d-people-header-new-notext.jpg?1591275648')">
 
+    {{-- <span class="text-white">
+        <pre>
+            {{ $data}}
+        </pre>
+    </span> --}}
+
+    {{-- <span class="text-white">
+        @foreach ($data as $key => $value )
+            {{ $value->title }}
+        @endforeach
+    </span> --}}
     <div class="container mx-auto">
         <div class="h-9"></div>
 
@@ -22,7 +33,7 @@
                         @if (App::currentLocale() == 'en')
                             <button wire:click='switchLang("ar")' class="text-white">عربي</button>
                         @else
-                            <button wire:click='switchLang("en")' class="text-white">English</button>
+                            <button wire:click='switchLang("en")' class="text-white rtl:mr-5">English</button>
                         @endif
                     </a>
 
@@ -101,7 +112,7 @@
                     </div>
                     <!-- Slider indicators -->
                     <div class="absolute z-30 flex space-x-3 ">
-                        <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1"
+                        <button type="button" class="w-3 h-3 rounded-full rtl:ml-4" aria-current="true" aria-label="Slide 1"
                             data-carousel-slide-to="0"></button>
                         <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2"
                             data-carousel-slide-to="1"></button>
@@ -142,11 +153,15 @@
 
 @livewire('happiness-factory.our-story-success-section')
 
+@livewire('happiness-factory.happiness-creators-carousel-section')
+
 @livewire('happiness-factory.partners-section')
 
 @livewire('happiness-factory.our-services-section')
 
 @livewire('happiness-factory.build-your-dream')
+
+
 
 {{-- here --}}
 

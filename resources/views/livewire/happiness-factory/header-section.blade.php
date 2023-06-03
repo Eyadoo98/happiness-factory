@@ -18,7 +18,7 @@
                             @if (App::currentLocale() == 'en')
                                 <button wire:click='switchLang("ar")' class="text-white">عربي</button>
                             @else
-                                <button wire:click='switchLang("en")' class="text-white">English</button>
+                                <button wire:click='switchLang("en")' class="text-white rtl:mr-6">English</button>
                             @endif
                         </a>
                     </div>

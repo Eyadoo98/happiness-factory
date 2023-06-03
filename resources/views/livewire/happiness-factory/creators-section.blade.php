@@ -15,7 +15,7 @@
             </div>
             <div class="flex px-16">
                 <div class="w-full">
-                    <p class="text-white text-xl md:mb-60 -mb-7">
+                    <p class="text-white text-xl lg:mb-60 mb-9">
                         We create experiences that meet the needs <br>
                         aspirations, and goals of our client.
                     </p>

@@ -53,7 +53,7 @@
         <div class="flex md:px-44 px-0">
             <div class="w-1/2 mb-5 mx-2">
                 <div class="relative">
-                    <div class="absolute left-1/2 bottom-1/2">
+                    <div class="absolute bottom-0 lg:-left-9 left-0 mx-auto h-1/2 w-full text-center">
                         <span class="text-black  text-3xl">+</span>
                     </div>
                     <img src="{{ url('images/Asset_1.png') }}" class="rtl:w-full opacity-30" alt="">

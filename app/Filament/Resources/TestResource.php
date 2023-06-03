@@ -24,10 +24,10 @@ class TestResource extends Resource
     {
         return $form
             ->schema([
-                TextInput::make('title:en')->label('Title English'),
-                TextInput::make('title:ar')->label('Title Arabic'),
-                TextInput::make('content:ar')->label('Content Arabic'),
-                TextInput::make('content:en')->label('Content English'),
+                TextInput::make('title:en')->label('Title English')->required(),
+                TextInput::make('title:ar')->label('Title Arabic')->required(),
+                TextInput::make('content:ar')->label('Content Arabic')->required(),
+                TextInput::make('content:en')->label('Content English')->required(),
             ]);
     }
 

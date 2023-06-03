@@ -5,6 +5,8 @@ namespace App\Http\Livewire\HappinessFactory;
 use App\Http\Livewire\Layouts\Master;
 use App\Models\Test;
 use App\Models\Tests_Translations;
+use App\Models\TestTranslation;
+use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Session;
 use Livewire\Component;
 
@@ -20,19 +22,10 @@ class Index extends Component
 
     public function mount()
     {
-        // $this->test = Test:: where('locale', app()->getLocale())->first();
-        $this->test = Test::query()->first()->translate(app()->getLocale())->title;
-
-        // $this->test->translate('en')->title;
-        // dd($this->test);
+        $this->data = Test::listsTranslations('*')->get();
     }
 
-    public function switchDirection()
-    {
-        $this->direction = ($this->direction == 'ltr') ? 'rtl' : 'ltr';
-        Session::put('direction', $this->direction);
 
-    }
 
     public function render()
     {

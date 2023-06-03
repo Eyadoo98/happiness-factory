@@ -46,24 +46,10 @@
         right: 0%;
         margin-right: -19px;
     }
-
-    /* .slick-arrow {
-        height: 270px;
-    }
-
-    @media(max-width:600) {
-        .slick-arrow {
-            height: 170px;
-        }
-    }
-
-    .slick-prev:before {
-        content: url('images/arrow-left.png');
-    }
-
-    .slick-next:before {
-        content: url('your-arrow.png');
+    /* .carouselMultiImage .slick-slide {
+        width:  100% !important;
     } */
+
 </style>
 
 @livewireStyles
