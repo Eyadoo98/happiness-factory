@@ -12,9 +12,9 @@
                 <div class="w-1/2"></div>
             </div>
             <div class="h-14"></div>
-            <div class="flex px-44 text-white md:flex-row flex-col items-center">
-                <div class="md:w-2/3 w-full">
-                    <div class="text-white">
+            <div class="flex lg:px-44 px-40 text-white md:flex-row flex-col items-center">
+                <div class="md:w-2/3 w-auto">
+                    <div class="text-white md:text-start text-center">
                         <hr class="h-px bg-white border-0 mt-2  w-5 inline-block">
                         <hr class="h-px bg-white border-0 mt-2  w-2 inline-block">
                         <div class="h-4"></div>
@@ -30,17 +30,20 @@
                         <div class="h-24"></div>
                         <i class="fa fa-circle-o"></i>
                         <div class="h-6"></div>
-                        <button class="text-white bg-orange-400 rounded-full md:px-10 px-4 py-2 md:font-bold mb-5">FIND MORE</button>
+                        <button class="text-white bg-orange-400 rounded-full md:px-10 px-4 py-2 md:font-bold mb-5">FIND
+                            MORE</button>
                     </div>
                 </div>
-                <div class="md:w-1/2 w-full" style="text-align: -webkit-center md:ml-5 ml-0">
-                    <img src="{{ url('images/wQSENsuU.jpg') }}" class="w-28 mb-9" alt="">
-                    <img src="{{ url('images/wQSENsuU.jpg') }}" class="w-28 mb-9" alt="">
-                    <img src="{{ url('images/wQSENsuU.jpg') }}" class="w-28 mb-9" alt="">
-                    <hr class="h-px bg-orange-300 border-0 mt-2  w-5 inline-block">
-                    <i class="fa fa-angle-down text-orange-500"></i>
+                <div class="md:w-1/2 w-auto text-center px-2">
+                    <div class="block">
+                        <img src="{{ url('images/wQSENsuU.jpg') }}" class="w-28 mb-9" alt="">
+                        <img src="{{ url('images/wQSENsuU.jpg') }}" class="w-28 mb-9" alt="">
+                        <img src="{{ url('images/wQSENsuU.jpg') }}" class="w-28 mb-9" alt="">
+                        <hr class="h-px bg-orange-300 border-0 mt-2  w-5 inline-block">
+                        <i class="fa fa-angle-down text-orange-500"></i>
+                    </div>
                 </div>
-                <div class="md:w-1/2 w-full" style="text-align: -webkit-center md:ml-5 ml-0">
+                <div class="md:w-1/2 w-auto text-center px-2">
                     <img src="{{ url('images/wQSENsuU.jpg') }}" class="w-28 mb-9" alt="">
                     <img src="{{ url('images/wQSENsuU.jpg') }}" class="w-28 mb-9" alt="">
                     <img src="{{ url('images/wQSENsuU.jpg') }}" class="w-28 mb-9" alt="">

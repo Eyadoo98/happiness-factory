@@ -32,9 +32,13 @@ export default {
                 137: "137px",
             },
             screens: {
-                'medium': '768px',
+                medium: "768px",
+                customLargeScreen: "1691px",
                 // => @media (min-width: 768px) { ... }
-              }
+            },
+            padding: {
+                "66": "17rem",
+            },
         },
     },
     plugins: [],

@@ -1,4 +1,4 @@
-<div>
+<div class="md:px-0 px-10">
 
     <div class="container mx-auto">
         <div class="flex px-16 justify-center items-center md:text-2xl text-1xl text-center">
@@ -20,28 +20,38 @@
         <div class="container">
 
 
-            <div class="mx-auto md:px-64 px-10 text-center">
+            {{-- md:px-64 px-10 --}}
+            <div class="mx-auto lg:px-66 text-center">
                 <div class="relative">
                     <div class="story-success relative">
                         <div class="relative w-full">
-                            <img src="{{ url('images/Asset_1.png') }}" alt="">
+                            <img src="{{ url('images/Asset_1.png') }}" alt="Asset_1.png" >
                             <img src="{{ url('images/Group_802_brm.png') }}"
-                                class="absolute bottom-5 left-9 rounded-lg bg-white text-white lg:w-22 md:w-16"
-                                alt="">
-                            <p class="absolute bottom-6 left-44 text-white">Lorem ipsum dolor sit amet.</p>
-                        </div>
-                        <div>
-                            <img src="{{ url('images/Rectangle_625.png') }}" alt="">
+                                class="absolute bottom-5 left-9 rounded-lg bg-white text-white lg:w-28 md:w-16 invisible lg:visible customMedium"
+                                alt="Group_802_brm">
+                            <p class="absolute bottom-6 left-44 text-white lg:block hidden customMedium">Project Title Can Be Added Here.</p>
                         </div>
                         <div class="relative w-full">
-                            <img src="{{ url('images/Asset_1.png') }}" alt="">
-                            <img src="{{ url('images/Group_802_brm.png') }}"
-                                class="absolute bottom-5 left-9 rounded-lg bg-white text-white lg:w-22 md:w-16"
-                                alt="">
-                            <p class="absolute bottom-6 left-44 text-white">Lorem ipsum dolor sit amet.</p>
+                            <img src="{{ url('images/Rectangle_625.png') }}" alt="Rectangle_625">
+                            <img src="{{ url('images/Mask_Group_21.png') }}"
+                                class="absolute bottom-5 h-10 left-9 rounded-lg bg-white text-white lg:w-28 md:w-16 invisible lg:visible customMedium"
+                                alt="Group_802_brm">
+                            <p class="absolute bottom-6 left-44 text-white lg:block hidden customMedium">Project Title Can Be Added Here.</p>
                         </div>
-                        <div>
-                            <img src="{{ url('images/Rectangle_625.png') }}" alt="">
+
+                        <div class="relative w-full">
+                            <img src="{{ url('images/Asset_1.png') }}" alt="Asset_1.png" >
+                            <img src="{{ url('images/Group_802_brm.png') }}"
+                                class="absolute bottom-5 left-9 rounded-lg bg-white text-white lg:w-28 md:w-16 invisible lg:visible customMedium"
+                                alt="Group_802_brm">
+                            <p class="absolute bottom-6 left-44 text-white lg:block hidden customMedium">Project Title Can Be Added Here.</p>
+                        </div>
+                        <div class="relative">
+                            <img src="{{ url('images/Rectangle_625.png') }}" alt="Rectangle_625"  >
+                            <img src="{{ url('images/Mask_Group_21.png') }}"
+                            class="absolute bottom-5 left-9 h-10 rounded-lg bg-white text-white lg:w-28 md:w-16 invisible lg:visible customMedium"
+                            alt="Group_802_brm">
+                        <p class="absolute bottom-6 left-44 text-white lg:block hidden customMedium">Project Title Can Be Added Here.</p>
                         </div>
 
                     </div>

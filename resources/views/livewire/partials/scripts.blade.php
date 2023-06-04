@@ -22,32 +22,60 @@
             slidesToShow: 2,
             slidesToScroll: 1,
             dots: false,
-            // arrows: false,
             prevArrow: ".arrow_prev",
             nextArrow: ".arrow_next"
 
         });
 
         $('.carouselMultiImage').slick({
-            dots: true,
+            // dots: true,
             infinite: false,
             speed: 300,
-            slidesToShow: 4,
-            slidesToScroll: 4,
-            responsive: [{
-                    breakpoint: 1024,
+            slidesToShow: 5,
+            slidesToScroll: 5,
+            prevArrow: ".arrow_prev_carousel",
+            nextArrow: ".arrow_next_carousel",
+            // variableWidth: true,
+            responsive: [
+
+                {
+                    breakpoint: 1400,
                     settings: {
-                        slidesToShow: 3,
-                        slidesToScroll: 3,
+                        slidesToShow: 2,
+                        slidesToScroll: 1,
                         infinite: true,
-                        dots: true
                     }
                 },
                 {
-                    breakpoint: 600,
+                    breakpoint: 1200,
                     settings: {
                         slidesToShow: 2,
-                        slidesToScroll: 2
+                        slidesToScroll: 1,
+                        infinite: true,
+                    }
+                },
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 1,
+                        infinite: true,
+                    }
+                },
+                {
+                    breakpoint: 800,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1,
+                        infinite: true,
+                    }
+                },
+                // small screen
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
                     }
                 },
                 {

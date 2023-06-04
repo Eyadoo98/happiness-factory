@@ -19,8 +19,8 @@
                 </div>
             </div>
         </div>
-        <div class="flex md:flex-row flex-col gap-5  lg:px-44  items-center">
-            <div class="w-1/2">
+        <div class="flex md:flex-row flex-col gap-5 lg:px-44  items-center">
+            <div class="md:w-1/2 w-auto md:mr-9">
                 <div class="bg-white h-full rounde-lg p-8 rounded-lg md:w-96">
                     <h1 class="text-cyan-400 font-bold text-6xl">01</h1>
                     <div class="h-4"></div>
@@ -34,7 +34,7 @@
                     <button class="text-white bg-orange-400 rounded-full px-14 py-2">FIND MORE</button>
                 </div>
             </div>
-            <div class="w-1/2">
+            <div class="md:w-1/2 w-auto">
                 <div class="bg-white h-full rounde-lg p-8 rounded-lg md:w-96">
                     <h1 class="text-cyan-400 font-bold text-6xl">02</h1>
                     <div class="h-4"></div>
